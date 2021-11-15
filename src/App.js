@@ -18,6 +18,7 @@ function App() {
 
   const caculate = () =>{
     try{
+      // eslint-disable-next-line 
       setResult(eval(result).toString());
     }catch(err){
       setResult("Error")
